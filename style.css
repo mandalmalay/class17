@@ -1,0 +1,389 @@
+.header{
+    background-color: #000000;
+    padding: 10px 0;
+}
+.container{
+    width: 1080px;
+    margin: auto;
+}
+
+.logo{
+
+}
+.logo img{
+    width: 100px;
+   
+}
+.menu{}
+.menu ul{
+    list-style: none;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+}
+.menu ul li{
+    display: inline-block;
+    padding: 10px 25px;
+    position: relative;
+}
+.menu ul li a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    line-height: 42px;
+}
+.menu ul li a:hover{
+    text-decoration: 2px underline;
+    width: 100%;
+    transition: .2s;
+}
+.menu ul li ul{
+    list-style: none;
+    position: absolute;
+    top: 118%;
+    left: -30px;
+    width: 230px;
+    background-color: rgb(12, 11, 11);
+    text-align: left;
+    padding-left: 0;
+    margin-left: 0;
+    border-top: 4px solid white;
+    opacity: 0;
+    visibility: hidden;
+}
+.menu ul li ul li{
+    display: block;
+    padding: 0;
+}
+.menu ul li ul li a {
+	display: block;
+	padding: 0 20px;
+	height: 52px;
+    line-height: 45px;
+    transition: .4s;
+}
+.menu ul li ul li a:hover{
+    background-color: white;
+    color: black;
+   
+
+}
+.menu ul li:hover ul{
+    opacity: 1;
+    visibility: visible;
+}
+
+
+
+/* banner */
+.banner{
+    background-image: url(./a0c6042d4612d7adf44692fffac7e082.jpg);
+    background-size: cover;
+    background-position: top center;
+    padding: 220px;
+}
+.banner h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    margin-top: -36px;
+}
+.banner h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    font-weight: 600;
+    padding: 20px 0;
+
+}
+.button a{
+    background-color: black;
+    border: 2px solid black;
+    padding: 18px 40px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    margin-right: 5px;
+    font-weight: 600;
+    transition: .3s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buttonn a{
+    background-color: rgb(241, 231, 231);
+    padding: 20px 42px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+    font-weight: 600;
+    transition: .3s;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.button a:hover{
+    background-color: white;
+    color: black;
+}
+.buttonn a:hover{
+    background-color: black;
+    color: white;
+}
+.button,.buttonn{
+    display: inline-block;
+    margin-top: 20px;
+}
+/* banner-bottom */
+.banner-bottom{
+    background-color: #87a471;
+    height: 500px;
+}
+.bb-headding {
+	color: #e8dfda;
+	font-weight: 600;
+	font-family: Arial, Helvetica, sans-serif;
+	text-shadow: 2px 0px 4px;
+	font-size: 48px;
+	padding-top: 50px;
+    position: relative;
+}
+.bb-headding::after{
+    content: "";
+    width: 261px;
+    height: 3px;
+    background-color: #e8dfda;
+    position: absolute;
+    top: 100%;
+    left: 397px;
+    z-index: 3;
+}
+.lekha {
+	width: 450px;
+	margin-top: 20%;
+	margin-left: 12%;
+}
+.lekha p{
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ecf1e9;
+}
+.vai {
+	width: 300px;
+	margin-left: 71px;
+	margin-top: 30px;
+}
+.vai img{
+    max-width: 100%;
+    
+}
+/* Contant */
+.content{
+    background-color: #606a64;
+    height: 350px;
+}
+.content h2{
+    text-align: center;
+    color: #e8dfda;
+    font-weight: 600;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+}
+.content p{
+    width: 850px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #dfdede;
+    font-size: 20px;
+}
+/* content Bottom */
+.content-bottom{
+    background-color: #606a64;
+    height: 300px;
+}
+.fast{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 0;
+    left: -60px;
+  
+}
+.fast1{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 0;
+    left: 10px;
+
+}
+.fast2{
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: 0;
+    left: 78px;
+
+}
+.fast h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #47637f;
+}
+.fast1 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #47637f;
+}
+.fast2 h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #47637f;
+}
+.fast p{
+    color: #8fa0af;
+    font-size: 15px;
+}
+.fast1 p{
+    color: #8fa0af;
+    font-size: 15px;
+}
+.fast2 p{
+    color: #8fa0af;
+    font-size: 15px;
+}
+.icon i{
+    color: #00bb9a;
+    font-size:50px;
+    padding: 10px;
+}
+/* check */
+.check{
+    background-color: #87a471;
+    height: 1100px;
+}
+.check-head{
+    text-align: center;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    padding-top: 90px;
+}
+.check-p{
+    text-align: center;
+    color: #d9ddd6;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+    padding-bottom: 40px;
+}
+.pic img{
+    min-width: 100%;
+    height: 400px;
+    max-width: 100%;
+}
+.pic{
+    border: 1px solid #ddd;
+}
+.pic h5{
+    text-align: center;
+    color: #506b84;
+    padding-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+
+}
+.pic h6{
+    text-align: center;
+    color: #ffffff;
+    padding: 10px 0;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.photo{
+    padding-top: 40px;
+}
+.photo img{
+    max-width: 100%;
+
+}
+/* mY TEAM */
+.my-team{
+    background-color: #5b9776;
+    
+    height: 600px;
+}
+.team-pic{
+    padding-top: 40px;
+}
+.team-pic img{
+    max-width: 100%;
+}
+.team-menu ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.team-menu ul li{
+    display: inline-block;
+    
+}
+.team-menu ul li a{
+    padding: 10px 10px;
+    font-size: 30px;
+    color: white;
+    display: inline-block;
+    transition: .4s;
+
+}
+.team-menu ul li a:hover{
+    color: rgb(78, 76, 51);
+}
+/* footer head */
+.footer-head{
+    background-color: #606a64;
+    height: 430px;
+}
+.bt{
+    text-align: center;
+    padding-top: 30px;
+}
+.bt a{
+    text-decoration: none;
+    padding: 13px 40px;
+    background-color: #00bc9c;
+    color: white;
+    display: inline-block;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 6px;
+    transition: .4s;
+   
+}
+.bt a:hover{
+    background-color: #779e98;
+}
+.footer{
+    text-align: center;
+    background-color: black;
+    padding: 20px 0;
+}
+.footer h4{
+    color: white;
+    font-size: 19px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    margin-top: 10px;
+
+}
+.main-div{
+    width: 1532px;
+    margin: auto;
+}
